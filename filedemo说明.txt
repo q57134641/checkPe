@@ -1,0 +1,6 @@
+1.CEditBox设置可读，属性里的readonly设置为true
+2. ...是按钮，右键根据内容设置大小可以直接调整大小
+3.右键CEditBox添加变量，
+类别改为Value，可以直接获取里面的CString，设置变量名为m_editValue，CEditBox发生变化时，可以用m_editValue获取值，
+调用UpdateData(),m_editValue才会更新
+类别改为Control,可以直接获取控件对象，设置变量名为m_editPath,可以用m_edithPath修改里面的值（setWindowTextW）
