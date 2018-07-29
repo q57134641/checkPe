@@ -148,7 +148,6 @@ void CfiledemoDlg::OnBnClickedBtnCheckPe()
 
 	} while (false);
 
-
 	if (hFile != INVALID_HANDLE_VALUE)
 		CloseHandle(hFile);
 }
